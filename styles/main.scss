@@ -18,7 +18,14 @@
 @use 'blocks/resources-preview';
 @use 'blocks/team';
 
+@use 'blocks/tag';
+@use 'blocks/section';
+@use 'blocks/list';
+@use 'blocks/tile';
+@use 'blocks/card';
+
 .header,
-.footer {
+.footer,
+main > *:not(:last-child) {
   display: none;
 }

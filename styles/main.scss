@@ -24,6 +24,11 @@
 @use 'blocks/tile';
 @use 'blocks/card';
 
+@use 'blocks/tabs';
+@use 'blocks/person-card';
+@use 'blocks/blog-card';
+@use 'blocks/blog-actions';
+
 .header,
 .footer,
 main > *:not(:last-child) {

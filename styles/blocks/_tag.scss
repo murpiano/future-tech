@@ -3,6 +3,7 @@
 .tag {
   @include fluid-text(20, 14);
 
+  display: inline-flex;
   padding: rem(6) rem(10);
   color: var(--color-light);
   font-weight: 500;

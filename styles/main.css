@@ -1259,7 +1259,7 @@ button[aria-label]::before {
   }
 }
 .tabs__button {
-  padding-block: clamp(1.125rem, 0.9338235294rem + 0.7843137255vw, 1.875rem) 0.6875rem;
+  padding: clamp(1.125rem, 0.9338235294rem + 0.7843137255vw, 1.875rem) 0.6875rem;
   border: var(--border);
   border-radius: 0.5rem;
   font-size: 1.125rem;

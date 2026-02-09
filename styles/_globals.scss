@@ -122,3 +122,8 @@ button {
     }
   }
 }
+
+
+main > *:not(:last-child){
+  display:none;
+}

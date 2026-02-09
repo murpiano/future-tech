@@ -78,7 +78,6 @@ class Tabs {
   }
 
   activateTab(newTabIndex) {
-    console.log('newTabIndex', newTabIndex);
     this.state.activeTabIndex = newTabIndex;
     setTimeout(() => {
       this.buttonElements[newTabIndex].focus();

@@ -39,10 +39,11 @@
 @use 'blocks/summary';
 @use 'blocks/news-card';
 @use 'blocks/news';
-
+@use 'blocks/video-card';
+@use 'blocks/video-player';
 
 .header,
-.footer{
-// main > *:not(:last-child) {
+.footer,
+main > *:not(:last-child) {
   display: none;
 }

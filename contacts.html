@@ -6,6 +6,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <title>Future Tech | Contacts</title>
   <link href="styles/main.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/imask/7.6.1/imask.min.js" integrity="sha512-+3RJc0aLDkj0plGNnrqlTwCCyMmDCV1fSYqXw4m+OczX09Pas5A/U+V3pFwrSyoC1svzDy40Q9RU/85yb/7D2A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script defer src="scripts/main.js" type="module"></script>
   <link rel="stylesheet" href="styles/_variables.scss" />
 </head>
@@ -181,7 +182,7 @@
                     <label class="field__label" for="phoneNumber"></label>
                     <div class="field__body">
                       <div class="select">SELECT</div>
-                      <input class="field__control" id="phoneNumber" placeholder="(999) 999-99-99"></input>
+                      <input class="field__control" id="phoneNumber" placeholder="(999) 999-99-99" data-js-input-mask="(000) 000-00-00"></input>
                     </div>
                   </div>
                   <div class="feedback-form__cell feedback-form__cell--wide field">
